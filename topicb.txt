@@ -69,6 +69,9 @@ http://www.bofrank.com/chat_down.php
 
 == Changelog ==
 
+= 0.4.8 =
+* Removed echos.
+
 = 0.2.5 =
 * Removed voice function.
 
