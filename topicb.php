@@ -20,9 +20,9 @@ function topicbTapid() {
 	$GLOBALS['tempTopic'] = 'test_4';
 	$GLOBALS['intTitle'] = 0;
 
-	echo $GLOBALS['strTapId'];
-	echo $GLOBALS['strTopic'];
-	echo $GLOBALS['intTitle'];
+	//echo $GLOBALS['strTapId'];
+	//echo $GLOBALS['strTopic'];
+	//echo $GLOBALS['intTitle'];
 
 }
 
