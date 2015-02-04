@@ -6,8 +6,7 @@
 /*
 Plugin Name: TopicB
 Plugin URI: http://wordpress.org/plugins/topicb/
-Description: TopicB provides live conversations around your posts. TopicB is simple to install:
-1. Upload 'topicb.php' to the '/wp-content/plugins/' directory
+Description: TopicB provides live conversations around your posts. TopicB is simple to install:\n1. Upload 'topicb.php' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 TopicB Chat provides live conversations by automatically creating chat rooms for each post in your WordPress site.
