@@ -35,21 +35,28 @@ function topicbChat($content) {
 	$content .= "<script>
 	
 	var strTopic='';
-	var strImage='';
+	var strImage='http://topicb.com/images/blank.jpg';
 
 	if(document.getElementsByClassName('entry-title')[".$GLOBALS['intTitle']."].childNodes[0].innerHTML){
 		console.log('condition 1');
 		strTopic=document.getElementsByClassName('entry-title')[".$GLOBALS['intTitle']."].childNodes[0].innerHTML;
 
+		//find image
 		if(document.getElementsByClassName('entry-content')[".$GLOBALS['intTitle']."].childNodes[1].childNodes[0]){
 			if(document.getElementsByClassName('entry-content')[".$GLOBALS['intTitle']."].childNodes[1].childNodes[0].innerHTML){
-				strImage=document.getElementsByClassName('entry-content')[".$GLOBALS['intTitle']."].childNodes[1].childNodes[0].href;
-			}else{
-				strImage=document.getElementsByClassName('entry-content')[".$GLOBALS['intTitle']."].childNodes[1].childNodes[0].src;
+				if(document.getElementsByClassName('entry-content')[".$GLOBALS['intTitle']."].childNodes[1].childNodes[0].getElementsByTagName('img').length>0){
+					strImage=document.getElementsByClassName('entry-content')[".$GLOBALS['intTitle']."].childNodes[1].childNodes[0].getElementsByTagName('img')[0].src;
+				}
 			}
+		} else {
+			document.getElementsByTagName('img')[".$GLOBALS['intTitle']."].src;
 		}
 
 		document.write('<div style=\"width:340px;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px;background:#efefef;\"><iframe style=\"border:none;height:200px;margin-top:10px;overflow:hidden;width:103%;\" src=\"http://topicb.com/index_chat.php?chatter=0000000000&amp;chatee=1111111111&amp;topicinit='+strTopic+'\" id=\"chatBox\"></iframe></div>');
+
+		xmlhttp = new XMLHttpRequest();
+	  xmlhttp.open(\"GET\", \"http://topicb.com/submitTopic.php?topic=\"+strTopic+\"&tapid=".$GLOBALS['strTapId']."&score=123&image=\"+strImage, true);
+	  xmlhttp.send();
 
 	}else if(document.getElementsByClassName('entry-title')[".$GLOBALS['intTitle']."].childNodes[1]){
 		console.log('condition 2');
@@ -63,15 +70,20 @@ function topicbChat($content) {
 				console.log('condition 22');
 				strImage=document.getElementsByClassName('entry-content')[".$GLOBALS['intTitle']."].childNodes[1].childNodes[0].src;
 			}
+		} else {
+			document.getElementsByTagName('img')[".$GLOBALS['intTitle']."].src;
 		}
+
 
 		document.write('<div style=\"width:340px;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px;background:#efefef;\"><iframe style=\"border:none;height:200px;margin-top:10px;overflow:hidden;width:103%;\" src=\"http://topicb.com/index_chat.php?chatter=0000000000&amp;chatee=1111111111&amp;topicinit='+strTopic+'\" id=\"chatBox\"></iframe></div>');
 
+		xmlhttp = new XMLHttpRequest();
+	  xmlhttp.open(\"GET\", \"http://topicb.com/submitTopic.php?topic=\"+strTopic+\"&tapid=".$GLOBALS['strTapId']."&score=123&image=\"+strImage, true);
+  	xmlhttp.send();
+
 	}
 
-	xmlhttp = new XMLHttpRequest();
-  xmlhttp.open(\"GET\", \"http://topicb.com/submitTopic.php?topic=\"+strTopic+\"&tapid=".$GLOBALS['strTapId']."&score=123&image=\"+strImage, true);
-  xmlhttp.send();
+	
 
 
 	</script>";
