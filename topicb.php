@@ -52,7 +52,7 @@ function topicbChat($content) {
 			document.getElementsByTagName('img')[".$GLOBALS['intTitle']."].src;
 		}
 
-		document.write('<div style=\"width:100%;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px;background:#efefef;\"><iframe style=\"border:none;height:200px;margin-top:10px;overflow:hidden;width:103%;\" src=\"http://topicb.com/index_chat.php?chatter=0000000000&amp;chatee=1111111111&amp;topicinit='+strTopic+'\" id=\"chatBox\"></iframe></div>');
+		document.write('<div style=\"width:100%;margin-left:auto;margin-right:auto;background:#fff;\"><iframe style=\"border:none;height:200px;margin-top:10px;overflow:hidden;width:103%;\" src=\"http://topicb.com/index_chat.php?chatter=0000000000&amp;chatee=1111111111&amp;topicinit='+strTopic+'\" id=\"chatBox\"></iframe></div>');
 
 		xmlhttp = new XMLHttpRequest();
 	  xmlhttp.open(\"GET\", \"http://topicb.com/submitTopic.php?topic=\"+strTopic+\"&tapid=".$GLOBALS['strTapId']."&ip=".$_SERVER['SERVER_NAME']."&score=123&image=\"+strImage, true);
@@ -75,7 +75,7 @@ function topicbChat($content) {
 		}
 
 
-		document.write('<div style=\"width:100%;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px;background:#efefef;\"><iframe style=\"border:none;height:200px;margin-top:10px;overflow:hidden;width:103%;\" src=\"http://topicb.com/index_chat.php?chatter=0000000000&amp;chatee=1111111111&amp;topicinit='+strTopic+'\" id=\"chatBox\"></iframe></div>');
+		document.write('<div style=\"width:100%;margin-left:auto;margin-right:auto;background:#fff;\"><iframe style=\"border:none;height:200px;margin-top:10px;overflow:hidden;width:103%;\" src=\"http://topicb.com/index_chat.php?chatter=0000000000&amp;chatee=1111111111&amp;topicinit='+strTopic+'\" id=\"chatBox\"></iframe></div>');
 
 		xmlhttp = new XMLHttpRequest();
 	  xmlhttp.open(\"GET\", \"http://topicb.com/submitTopic.php?topic=\"+strTopic+\"&tapid=".$GLOBALS['strTapId']."&ip=".$_SERVER['SERVER_NAME']."&score=123&image=\"+strImage, true);
