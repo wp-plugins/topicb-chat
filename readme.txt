@@ -4,7 +4,7 @@ Donate link: http://bofrank.com/donate.html
 Tags: chat,traffic,seo,monetize,monetization
 Requires at least: 4.0
 Tested up to: 4.0
-Stable tag: 0.6.5.4
+Stable tag: 0.6.5.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,11 +16,13 @@ TopicB Beta provides live conversations around your posts connecting people to y
 
 TopicB also automatically includes your posts in the TopicB network which drives quality traffic to your site.
 
-TopicB is simple to install:
-1) Upload 'topicb.php' to the '/wp-content/plugins/' directory
-2) Activate the plugin through the 'Plugins' menu in WordPress
+<h3>TopicB is simple to install:</h3>
+<ol>
+<li>Upload 'topicb.php' to the '/wp-content/plugins/' directory</li>
+<li>Activate the plugin through the 'Plugins' menu in WordPress</li>
+</ol>
 
-<h3>What exactly does topicB do?</h3>
+<h3>What exactly does TopicB do?</h3>
 <ul>
 <li>TopicB Chat provides live conversations by automatically creating chat rooms for each post in your WordPress site.</li>
 
@@ -33,8 +35,9 @@ TopicB is simple to install:
 <li>TopicB automatically includes your posts in the TopicB network including our website giving you a bigger audience without sacrificing exit traffic.</li>
 
 <li>TopicB includes a viewer generated rating system to give bloggers insights into which posts are more popular.</li>
+</ul>
 
-<strong>Upcoming Features</strong>
+<h3>Upcoming Features</h3>
 
 <ul>
 <li>monetization</li>
