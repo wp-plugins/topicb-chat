@@ -4,22 +4,48 @@ Donate link: http://bofrank.com/donate.html
 Tags: chat,traffic,seo,monetize,monetization
 Requires at least: 4.0
 Tested up to: 4.0
-Stable tag: 0.6.5.3
+Stable tag: 0.6.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-TopicB Beta provides live conversations around your posts connecting people to your posts to have live discussions about topics. Readme.txt text file above description.
+TopicB Beta provides live conversations around your posts connecting people to your posts to have live discussions about topics.
 
 == Description ==
 
-TopicB Beta provides live conversations around your posts connecting people to your posts to have live discussions about your topics. Readme.txt file description.
+TopicB Beta provides live conversations around your posts connecting people to your posts to have live discussions about your topics.
 
-TopicB is simple to install:<br/>1) Upload 'topicb.php' to the '/wp-content/plugins/' directory<br/>2) Activate the plugin through the 'Plugins' menu in WordPress<br/><br/>TopicB Chat provides live conversations by automatically creating chat rooms for each post in your WordPress site.<br/>The chat is not recorded anywhere.<br/>The chat does not require a profile, login, handle and is anonymous although the option for a handle is provided.<br/>The chat room is only defined by the title of a post.<br/>TopicB automatically includes your posts in the TopicB network including our website giving you a bigger audience without sacrificing exit traffic.<br/>TopicB includes a viewer generated rating system to give bloggers insights into which posts are more popular.<br/><br/><span style="font-weight:bold;">Upcoming Features</span><br/>TopicB will provide real-time voice connections. 
+TopicB also automatically includes your posts in the TopicB network which drives quality traffic to your site.
+
+TopicB is simple to install:
+1) Upload 'topicb.php' to the '/wp-content/plugins/' directory
+2) Activate the plugin through the 'Plugins' menu in WordPress
+
+<h3>What exactly does topicB do?</h3>
+<ul>
+<li>TopicB Chat provides live conversations by automatically creating chat rooms for each post in your WordPress site.</li>
+
+<li>The chat is not recorded anywhere.</li>
+
+<li>The chat does not require a profile, login, handle and is anonymous although the option for a handle is provided.</li>
+
+<li>The chat room is only defined by the title of a post.</li>
+
+<li>TopicB automatically includes your posts in the TopicB network including our website giving you a bigger audience without sacrificing exit traffic.</li>
+
+<li>TopicB includes a viewer generated rating system to give bloggers insights into which posts are more popular.</li>
+
+<strong>Upcoming Features</strong>
+
+<ul>
+<li>monetization</li>
+<li>real-time voice connections</li>
+<li>video chat</li>
+</ul>
 
 == Installation ==
 
-1. Upload 'topicb.php' to the '/wp-content/plugins/' directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload 'topicb.php' to your '/wp-content/plugins/' directory
+2. Activate the plugin through your 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
@@ -58,6 +84,9 @@ http://www.bofrank.com/chat_down.php
 2. '/assets/screenshot-2.png'
 
 == Changelog ==
+
+= 0.6.5.4 =
+* updating plugin description
 
 = 0.4.8 =
 * Removed echos.
