@@ -88,7 +88,7 @@ Your posts will automatically be listed in the TopicB network driving traffic to
 
 == Changelog ==
 
-= 0.6.5.6 =
+= 0.6.5.7 =
 * updating screenshots
 
 = 0.6.5.4 =
