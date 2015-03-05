@@ -90,6 +90,9 @@ Your posts will automatically be listed in the TopicB network driving traffic to
 4. 
 Readers can interact around your content.
 
+5. 
+Readers can interact around your content.
+
 == Changelog ==
 
 = 0.6.5.7 =
