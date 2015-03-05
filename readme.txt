@@ -63,10 +63,6 @@ No.
 
 What files are loaded with the link to the topicb.com server?
 
-http://topicb.com/index_chat.php
-
-http://topicb.com/server_chat.php
-
 http://topicb.com/css/bootstrap.css
 
 http://topicb.com/css/global.css
@@ -82,9 +78,11 @@ http://www.bofrank.com/chat_down.php
 
 
 == Screenshots ==
-
-1. '/assets/screenshot-1.png'
-2. '/assets/screenshot-2.png'
+This is an example of your post with chat underneath:
+1. '/assets/example_post_with_chat.jpg'
+2. '/assets/TopicB_network.jpg'
+3. '/assets/TopicB_blog_list.jpg'
+4. '/assets/TopicB_chat.jpg'
 
 == Changelog ==
 
