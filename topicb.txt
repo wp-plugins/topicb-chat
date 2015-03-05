@@ -4,11 +4,11 @@ Donate link: http://bofrank.com/donate.html
 Tags: chat,traffic,seo,monetize,monetization
 Requires at least: 4.0
 Tested up to: 4.0
-Stable tag: 0.6.5.2
+Stable tag: 0.6.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-TopicB Beta provides live conversations around your posts connecting people to your posts to have live discussions about your topics. This is from the text file above description.
+TopicB Beta provides live conversations around your posts connecting people to your posts to have live discussions about topics. This is from the text file above description.
 
 == Description ==
 
