@@ -8,9 +8,9 @@ Plugin Name: TopicB
 Plugin URI: http://wordpress.org/plugins/topicb-chat/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Description: TopicB Beta provides live conversations around your posts connecting people to your posts to have live discussions about your topics.
+Description: TopicB Beta provides live conversations around your posts connecting people to your posts to have live discussions about your topics. This is from the php file.
 Author: Bolinas Frank
-Version: 0.6.5.1
+Version: 0.6.5.2
 Author URI: http://topicb.com/
 */
 
