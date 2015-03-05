@@ -8,15 +8,9 @@ Plugin Name: TopicB
 Plugin URI: http://wordpress.org/plugins/topicb-chat/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Short Description: Here is a short description of the plugins.  This should be no more than 150 characters.  No markup here.
-
 Description: TopicB Beta provides live conversations around your posts connecting people to your posts to have live discussions about your topics.
-
-TopicB is simple to install:<br/>1) Upload 'topicb.php' to the '/wp-content/plugins/' directory<br/>2) Activate the plugin through the 'Plugins' menu in WordPress<br/><br/>TopicB Chat provides live conversations by automatically creating chat rooms for each post in your WordPress site.<br/>The chat is not recorded anywhere.<br/>The chat does not require a profile, login, handle and is anonymous although the option for a handle is provided.<br/>The chat room is only defined by the title of a post.<br/>TopicB automatically includes your posts in the TopicB network including our website giving you a bigger audience without sacrificing exit traffic.<br/>TopicB includes a viewer generated rating system to give bloggers insights into which posts are more popular.<br/><br/><span style="font-weight:bold;">Upcoming Features</span><br/>TopicB will provide real-time voice connections. 
-
 Author: Bolinas Frank
-Version: 0.6.5.0
+Version: 0.6.5.1
 Author URI: http://topicb.com/
 */
 
