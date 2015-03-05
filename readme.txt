@@ -78,16 +78,16 @@ http://www.bofrank.com/chat_down.php
 
 
 == Screenshots ==
-1. '/assets/screenshot-1.jpg'
+1. 
 This is an example of chat under one of your posts.
 
 2. 
 Your posts will automatically be listed in the TopicB network driving traffic to your site.
 
-3. '/assets/screenshot-3.jpg'
+3. 
 Your posts will automatically be listed in the TopicB network driving traffic to your site.
 
-4. '/assets/screenshot-4.jpg'
+4. 
 Readers can interact around your content.
 
 == Changelog ==
