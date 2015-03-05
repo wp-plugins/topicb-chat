@@ -91,7 +91,7 @@ Your posts will automatically be listed in the TopicB network driving traffic to
 Readers can interact around your content.
 
 5. 
-Readers can interact around your content.
+Activate the downloaded plugin after unzipping and uploading to your website into the folder /wp-content/plugins/
 
 == Changelog ==
 
